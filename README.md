@@ -1,15 +1,23 @@
 # Nolan Vale
 
-Independent developer building practical open-source tools for AI agents, search automation, and Russian-language text processing.
+Independent developer building practical open-source tools for AI coding agents, search automation, browser automation, and Russian-language text processing.
 
-## CLI Tools
+## Search & Research
 
-Small, focused developer tools designed for terminal use, automation, and AI-agent workflows.
+CLI tools for web search, URL crawling, and AI-powered research from the terminal.
 
 | Project | What it does | Install |
 |---|---|---|
 | [exa-search-cli](https://github.com/nolan-vale/exa-search-cli) | Exa neural search, URL crawling, and deep research from terminal | `uv tool install exa-search-cli` |
 | [yandex-search-cli](https://github.com/nolan-vale/yandex-search-cli) | Yandex Search API and YandexGPT from terminal | `uv tool install yandex-search-cli` |
+
+## Browser Automation
+
+Real browser automation for AI agents — visible Chrome with a dedicated agent profile and Chrome DevTools Protocol.
+
+| Project | What it does | Install |
+|---|---|---|
+| [browser-agent-cli](https://github.com/nolan-vale/browser-agent-cli) | Launch Chrome Beta with agent profile + CDP control layer. No headless. Persistent logins. | `git clone` + `bash install.sh` |
 
 ## Russian Text AI Skills
 
@@ -24,6 +32,7 @@ AI instruction files (skills) for removing AI writing markers from Russian text.
 ## Focus
 
 - Search automation and AI-agent CLI tools
+- Real browser automation via Chrome DevTools Protocol
 - Russian-language AI text processing
 - JSON output for scripts and coding agents
 - Developer productivity workflows
