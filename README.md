@@ -1,6 +1,14 @@
 # Nolan Vale
 
-Independent developer building practical open-source tools for AI coding agents, search automation, browser automation, and Russian-language text processing.
+Independent developer building practical open-source CLI tools for AI coding agents, search automation, browser automation, and Russian-language text processing.
+
+## Google NotebookLM
+
+Complete terminal toolkit for Google NotebookLM — Chrome-based auth and full programmatic access.
+
+| Project | What it does | Install |
+|---|---|---|
+| [notebooklm-cdp](https://github.com/nolan-vale/notebooklm-cdp) | CDP auth from Chrome Beta + chat, sources, generation, Studio notes from terminal | `uv tool install notebooklm-cdp` |
 
 ## Search & Research
 
@@ -31,11 +39,11 @@ AI instruction files (skills) for removing AI writing markers from Russian text.
 
 ## Focus
 
+- NotebookLM terminal automation and AI knowledge workflows
 - Search automation and AI-agent CLI tools
 - Real browser automation via Chrome DevTools Protocol
 - Russian-language AI text processing
 - JSON output for scripts and coding agents
-- Developer productivity workflows
 - Terminal-first utilities
 
 Clear tools. Simple workflows. Less friction.
