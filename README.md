@@ -46,4 +46,8 @@ AI instruction files (skills) for removing AI writing markers from Russian text.
 - JSON output for scripts and coding agents
 - Terminal-first utilities
 
+## How these tools are built
+
+Each project starts as a written spec and a plan, then gets implemented with AI coding agents (Claude Code, Codex). Every diff is reviewed before merge, and each release goes through tests and basic security checks before it ships. The agents write the code; the design decisions and the review are not automated.
+
 Clear tools. Simple workflows. Less friction.
