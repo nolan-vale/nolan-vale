@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "repo_id": "nolan-vale/nolan-vale",
+  "purpose": "Publishes the Nolan Vale developer profile and index of open-source AI-agent tools.",
+  "objective": null,
+  "sources": [{"role": "overview", "path": "README.md", "verify_live": true}],
+  "exclude": []
+}
